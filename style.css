@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #46494c;
+}
+.tribute{
+    height: 100%;
+    width: 90vw;
+    text-align: center;
+    margin: 5vh 5vw;
+    /* margin-bottom: 0px; */
+    padding: 20px;
+    border-radius: 2%;
+    background-color: #eeeeee;
+}
+header{
+    padding: 10px;
+}
+h1{
+    font-size: 34px;
+    font-weight: 800;
+}
+header p{
+    font-size: 23px;
+}
+.nav-container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #46494c;
+
+    padding: 20px;
+    margin-bottom: 10px;
+}
+nav a:hover{
+    color: blue;
+}
+figure{
+    margin:20px
+}
+img{
+    height: 200px;
+    width: 250px;
+    border-radius: 50%;
+}
+h2{
+    font-size: 25px;
+    margin: 20px;
+}
+#Introduction{
+    margin: 2vh 20vw;
+}
+#Introduction p {
+    text-align: justify;
+    text-justify: none;
+    line-height: 2;
+    font-size: 16px;
+}
+#Timeline ul {
+    padding: 5vh 20vw;
+    list-style: disc;
+    /* list-style-position: inside; */
+    line-height: 2;
+    font-size: 16px;
+    text-align: justify;
+    text-justify: none;
+}
+#books{
+    margin: 2vh 20vw;
+}
+#books p{
+    font-size: 16px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 5vh;
+}
+#books ol{
+    padding: 5vh 5vw;
+    /* list-style-position: inside; */
+    line-height: 2;
+    font-size: 16px;
+    text-align: justify;
+    text-justify: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+.link_book{
+    padding: 0 5vw;
+    margin-bottom: 10px;
+}
+#Honours{
+    margin: 2vh 20vw;
+}
+#Honours ul{
+    padding: 5vh 5vw;
+    /* list-style-position: inside; */
+    line-height: 2;
+    font-size: 16px;
+    text-align: justify;
+    text-justify: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+.quote{
+    background-color:#e2dede;
+    margin: 3vh 15vw;
+    padding: 2vh 5vw;
+    border-radius: 2%;
+}
+.personality{
+    margin: 5vh;
+}
+.bold{
+    font-weight: 700;
+}
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+}
